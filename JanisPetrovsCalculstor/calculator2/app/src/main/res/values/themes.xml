@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      Base application theme for your app.
+      Using a Material 3 theme is recommended for new apps.
+      The .NoActionBar suffix removes the default top app bar.
+    -->
+    <style name="Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <!-- Used for key elements like buttons and the app bar -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <!-- Used for floating action buttons, highlights, and interactive elements -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <!-- You can set the status bar color to match your app's theme -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+
+        <!-- You can add other customizations here. -->
+
+    </style>
+</resources>
